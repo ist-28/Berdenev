@@ -1,0 +1,10 @@
+D:\С#\win form\WinForms Lab3\WinForms3_2\bin\Debug\WinForms3_2.exe.config
+D:\С#\win form\WinForms Lab3\WinForms3_2\bin\Debug\WinForms3_2.exe
+D:\С#\win form\WinForms Lab3\WinForms3_2\bin\Debug\WinForms3_2.pdb
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.csproj.AssemblyReference.cache
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.Properties.Resources.resources
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.UserControlTimer2.resources
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.csproj.GenerateResource.cache
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.csproj.CoreCompileInputs.cache
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.exe
+D:\С#\win form\WinForms Lab3\WinForms3_2\obj\Debug\WinForms3_2.pdb

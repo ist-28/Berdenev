@@ -1,0 +1,14 @@
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\bin\Debug\net8.0-windows\WinFormsControlLibrary1.deps.json
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\bin\Debug\net8.0-windows\WinFormsControlLibrary1.dll
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\bin\Debug\net8.0-windows\WinFormsControlLibrary1.pdb
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.UserControl1.resources
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.UserControl2.resources
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.csproj.GenerateResource.cache
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.AssemblyInfoInputs.cache
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.AssemblyInfo.cs
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.csproj.CoreCompileInputs.cache
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.dll
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\refint\WinFormsControlLibrary1.dll
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\WinFormsControlLibrary1.pdb
+D:\С#\win form\WinForms Lab3\WinFormsControlLibrary1\obj\Debug\net8.0-windows\ref\WinFormsControlLibrary1.dll
