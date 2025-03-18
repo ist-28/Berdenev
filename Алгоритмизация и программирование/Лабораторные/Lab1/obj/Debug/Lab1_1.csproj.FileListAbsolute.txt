@@ -8,3 +8,13 @@ D:\С#\Labaratories\Lab1\Lab1_1\obj\Debug\Lab1_1.csproj.GenerateResource.cache
 D:\С#\Labaratories\Lab1\Lab1_1\obj\Debug\Lab1_1.csproj.CoreCompileInputs.cache
 D:\С#\Labaratories\Lab1\Lab1_1\obj\Debug\Lab1_1.exe
 D:\С#\Labaratories\Lab1\Lab1_1\obj\Debug\Lab1_1.pdb
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\bin\Debug\Lab1_1.exe.config
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\bin\Debug\Lab1_1.exe
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\bin\Debug\Lab1_1.pdb
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.csproj.AssemblyReference.cache
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.Form1.resources
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.Properties.Resources.resources
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.csproj.GenerateResource.cache
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.csproj.CoreCompileInputs.cache
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.exe
+D:\GitHubRep\ISIT\Berdenev\Berdenev\Алгоритмизация и программирование\Лабораторные\Lab1\obj\Debug\Lab1_1.pdb
