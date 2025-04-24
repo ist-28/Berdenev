@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #e7e7e7;
+  --bg-color: #d6d6d6;
 }
 
 html,
@@ -23,16 +23,38 @@ main.main {
   flex: 1 1 auto;
 }
 
-table a {
-  color: #ffffff;
-}
-
 .col-num {
   width: 55px;
 }
 
-.w-input-count {
-  width: 50px;
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 0%;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.asc,
+.desc {
+  transition: all 0.4s ease;
+}
+
+.asc:hover,
+.desc:hover {
+  color: #d1d1d1f5;
+}
+
+
+td,
+th {
   border: none;
-  outline: none;
+  text-align: center;
+  vertical-align: middle;
 }
