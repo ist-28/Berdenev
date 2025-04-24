@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Аптека</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <span class="navbar-brand mb-1">Аптека</span>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Корзина</a>
+            </li>
+          </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info me-2" type="submit">Поиск</button>
+            </form>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container mt-5">
+        <section class="d-flex justify-content-end"><!---->
+          <button class="btn btn-outline-success mb-2">Добавить</button>
+        </section>
+        <section class="table-responsive"> <!--Таблица-->
+          <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col" class="col-num"><a href="">№</a></th>
+                <th scope="col"><a href="">Название</a></th>
+                <th scope="col"><a href="">Страна производитель</a></th>
+                <th scope="col"><a href="">Тип лекарства</a></th>
+                <th scope="col"><a href="">Год производства</a></th>
+                <th scope="col"><a href="">Стоимость</a></th>
+                <th scope="col"><a href="">Количество</a></th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td><input class="w-input-count" type="number" value="0" min="0" max="10"> /10</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td><input class="w-input-count" type="number" value="0" min="0" max="10"> /10</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>John</td>
+                <td>Doe</td>
+                <td>@social</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                <td><input class="w-input-count" type="number" value="0" min="0" max="10"> /10</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      Footer
+    </footer>
+  </div>
+
+  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/jquery-3.7.1.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+</body>
+
+
+</html>

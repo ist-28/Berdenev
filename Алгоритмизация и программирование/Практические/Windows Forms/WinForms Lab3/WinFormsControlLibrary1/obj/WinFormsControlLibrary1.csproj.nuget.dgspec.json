@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\С#\\win form\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj": {}
+    "D:\\GitHubRep\\ISIT\\Berdenev\\Berdenev\\Алгоритмизация и программирование\\Практические\\Windows Forms\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj": {}
   },
   "projects": {
-    "D:\\С#\\win form\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj": {
+    "D:\\GitHubRep\\ISIT\\Berdenev\\Berdenev\\Алгоритмизация и программирование\\Практические\\Windows Forms\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\С#\\win form\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj",
+        "projectUniqueName": "D:\\GitHubRep\\ISIT\\Berdenev\\Berdenev\\Алгоритмизация и программирование\\Практические\\Windows Forms\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj",
         "projectName": "WinFormsControlLibrary1",
-        "projectPath": "D:\\С#\\win form\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj",
+        "projectPath": "D:\\GitHubRep\\ISIT\\Berdenev\\Berdenev\\Алгоритмизация и программирование\\Практические\\Windows Forms\\WinForms Lab3\\WinFormsControlLibrary1\\WinFormsControlLibrary1.csproj",
         "packagesPath": "C:\\Users\\Esen\\.nuget\\packages\\",
-        "outputPath": "D:\\С#\\win form\\WinForms Lab3\\WinFormsControlLibrary1\\obj\\",
+        "outputPath": "D:\\GitHubRep\\ISIT\\Berdenev\\Berdenev\\Алгоритмизация и программирование\\Практические\\Windows Forms\\WinForms Lab3\\WinFormsControlLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio\\Shared\\NuGetPackages"

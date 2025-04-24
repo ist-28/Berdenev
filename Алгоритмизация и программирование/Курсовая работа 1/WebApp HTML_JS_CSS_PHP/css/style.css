@@ -1,0 +1,38 @@
+:root {
+  --bg-color: #e7e7e7;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: #222222;
+  min-width: 320px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main.main {
+  flex: 1 1 auto;
+}
+
+table a {
+  color: #ffffff;
+}
+
+.col-num {
+  width: 55px;
+}
+
+.w-input-count {
+  width: 50px;
+  border: none;
+  outline: none;
+}
