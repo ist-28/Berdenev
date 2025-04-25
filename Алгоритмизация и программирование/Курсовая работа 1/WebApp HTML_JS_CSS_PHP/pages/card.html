@@ -28,7 +28,7 @@
         <section class="d-flex justify-content-end"><!--Кнопка добавления-->
           <button class="clear-card btn btn-outline-danger mb-2">Очистить корзину</button>
         </section>
-        <section class="table-responsive"> <!--Таблица-->
+        <section class="table-responsive" id="card"> <!--Таблица-->
           <table class="table">
             <thead class="table-dark">
               <tr>
@@ -42,77 +42,21 @@
                 <th scope="col" aria-label="Delete">Удалить</th>
               </tr>
             </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
-                <td>
-                  <div class="counter">
-                    <button class="minus btn btn-outline-danger me-2">-</button>
-                    <span class="count" data-max="10">0</span>
-                    <span>/10</span>
-                    <button class="plus btn btn-outline-success ms-2">+</button>
-                  </div>
-                </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-danger">&#x2715;</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
-                <td>
-                  <div class="counter">
-                    <button class="minus btn btn-outline-danger me-2">-</button>
-                    <span class="count" data-max="10">0</span>
-                    <span>/10</span>
-                    <button class="plus btn btn-outline-success ms-2">+</button>
-                  </div>
-                </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-danger">&#x2715;</button>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>John</td>
-                <td>Doe</td>
-                <td>@social</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
-                <td>
-                  <div class="counter">
-                    <button class="minus btn btn-outline-danger me-2">-</button>
-                    <span class="count" data-max="10">0</span>
-                    <span>/10</span>
-                    <button class="plus btn btn-outline-success ms-2">+</button>
-                  </div>
-                </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-danger">&#x2715;</button>
-                </td>
-              </tr>
-            </tbody>
+            
           </table>
         </section>
       </div>
     </main>
-    <footer class="footer">
-      Footer
+<footer class="footer">
+      <div class="container-fluid bg-dark d-flex justify-content-center">
+          <p class="mt-3 mb-3">© Все права защищены</p>
+      </div>
     </footer>
   </div>
 
   <script src="../scripts/bootstrap.bundle.min.js"></script>
   <script src="../scripts/jquery-3.7.1.min.js"></script>
-  <script src="../scripts/scripts.js"></script>
+  <script src="../scripts/card.js"></script>
 </body>
 
 </html>

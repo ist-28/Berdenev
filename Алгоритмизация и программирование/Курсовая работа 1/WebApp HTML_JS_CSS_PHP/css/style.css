@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #d6d6d6;
+  --bg-color: #e3f7f5;
 }
 
 html,
@@ -57,4 +57,19 @@ th {
   border: none;
   text-align: center;
   vertical-align: middle;
+}
+
+.footer{
+    color: #D3D3D3;
+}
+
+.form{
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+form input.form-control, form select.form-select{
+    border-radius: 0px;
+    border: 1px solid black;
 }

@@ -17,7 +17,7 @@
           <span class="navbar-brand mb-1">Все лекарства</span>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="pages/card.html">Корзина</a>
+              <a id="card" class="nav-link" aria-current="page" href="pages/card.html">Корзина</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -30,7 +30,7 @@
     <main class="main">
       <div class="container mt-5">
         <section class="d-flex justify-content-end"><!---->
-          <a class="btn btn-outline-success mb-2" href="#">Добавить лекарство</a>
+          <a class="btn btn-outline-success mb-2" href="pages/AddPills.html">Добавить лекарство</a>
         </section>
         <section class="table-responsive"> <!--Таблица-->
           <table class="table">
@@ -46,50 +46,47 @@
               </tr>
             </thead>
             <tbody class="table-group-divider">
-              <tr>
+              <tr data-id="1">
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
+                <td>Парацетамол</td>
+                <td>Таблетки</td>
+                <td>2009</td>
+                <td>Россия</td>
+                <td>50р</td>
                 <td>
-                  <div class="counter">
+                  <div class="counter d-flex justify-content-between">
                     <button class="minus btn btn-outline-danger me-2">-</button>
-                    <span class="count" data-max="10">0</span>
-                    <span>/10</span>
+                    <span class="count" data-max="20">0/20</span>
                     <button class="plus btn btn-outline-success ms-2">+</button>
                   </div>
                 </td>
               </tr>
-              <tr>
+              <tr data-id="2">
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
+                <td>Пенталгин</td>
+                <td>Таблетки</td>
+                <td>2010</td>
+                <td>Россия</td>
+                <td>150р</td>
                 <td>
-                  <div class="counter">
+                  <div class="counter d-flex justify-content-between">
                     <button class="minus btn btn-outline-danger me-2">-</button>
-                    <span class="count" data-max="10">0</span>
-                    <span>/10</span>
+                    <span class="count" data-max="20">0/20</span>
                     <button class="plus btn btn-outline-success ms-2">+</button>
                   </div>
                 </td>
               </tr>
-              <tr>
+              <tr data-id="3">
                 <th scope="row">3</th>
-                <td>John</td>
-                <td>Doe</td>
-                <td>@social</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
+                <td>Доктор Мом</td>
+                <td>Микстура</td>
+                <td>2011</td>
+                <td>Россия</td>
+                <td>230р</td>
                 <td>
-                  <div class="counter">
+                  <div class="counter d-flex justify-content-between">
                     <button class="minus btn btn-outline-danger me-2">-</button>
-                    <span class="count" data-max="10">0</span>
-                    <span>/10</span>
+                    <span class="count" data-max="10">0/10</span>
                     <button class="plus btn btn-outline-success ms-2">+</button>
                   </div>
                 </td>
@@ -100,7 +97,9 @@
       </div>
     </main>
     <footer class="footer">
-      Footer
+      <div class="container-fluid bg-dark d-flex justify-content-center">
+        <p class="mt-3 mb-3">© Все права защищены</p>
+      </div>
     </footer>
   </div>
 
