@@ -7,14 +7,15 @@ $(document).ready(function () {
     table.append(tbody);
     console.log(table.html()); // проверить, действительно ли tbody добавляется к таблице
     $.each(cart, function (index, item) {
-        let row = $('<tr data-id="' + item.id + '">');
+        let row = $('<tr data-id="' + item.Id + '">');
         row.append('<th scope="row">' + (index + 1) + '</th>');
-        row.append('<td>' + item.name + '</td>');
-        row.append('<td>' + item.type + '</td>');
-        row.append('<td>' + item.year + '</td>');
-        row.append('<td>' + item.country + '</td>');
-        row.append('<td>' + item.price + '</td>');
-        row.append('<td>' + item.count + '</td>');
+        row.append('<td>' + item.Name + '</td>');
+        row.append('<td>' + item.Category + '</td>');
+        row.append('<td>' + item.Type + '</td>');
+        row.append('<td>' + item.Year + '</td>');
+        row.append('<td>' + item.Manufacturer + '</td>');
+        row.append('<td>' + item.Price + '</td>');
+        row.append('<td>' + item.Count + '</td>');
         row.append('<td><a class="btn btn-outline-danger">&#x2715;</a></a></td>');
         tbody.append(row);
     })

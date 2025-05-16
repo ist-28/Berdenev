@@ -20,8 +20,8 @@
               <a id="card" class="nav-link" aria-current="page" href="pages/card.html">Корзина</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Найти..." aria-label="Search">
+          <form class="d-flex" id="search-form" role="search">
+            <input class="form-control me-2" id="search" type="search" placeholder="Найти..." aria-label="Search">
             <button class="btn btn-outline-info me-2" type="submit">Поиск</button>
           </form>
         </div>
@@ -29,18 +29,72 @@
     </header>
     <main class="main">
       <div class="container mt-5">
-        <section class="d-flex justify-content-end"><!---->
+        <section class="d-flex justify-content-between"><!---->
+          <div class="dropdown">
+            <button class="btn btn-outline-warning dropdown-toggle" type="button" id="mainDropdownMenuButton"
+              data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              Фильтры
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="mainDropdownMenuButton">
+              <li> <!--Категории-->
+                <div class="dropend"> 
+                  <button class="dropdown-item dropdown-toggle" type="button" id="CategoryDropdownMenuButton"
+                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                    Категории
+                  </button>
+                  <ul class="dropdown-menu" id="categories-dropdown" aria-labelledby="CategoryDropdownMenuButton">
+                    <li><a class="dropdown-item" role="button" data-category-id="1">Категория 1</a></li>
+                    <li><a class="dropdown-item" role="button" data-category-id="2">Категория 2</a></li>
+                    <li><a class="dropdown-item" role="button" data-category-id="3">Категория 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <!--Производители-->
+                <div class="dropend">
+                  <button class="dropdown-item dropdown-toggle" type="button" id="ManufacturerDropdownMenuButton"
+                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                    Производители
+                  </button>
+                  <ul class="dropdown-menu" id="manufacturers-dropdown" aria-labelledby="ManufacturerDropdownMenuButton">
+                    <li><a class="dropdown-item" role="button" data-manufacturer-id="1">Производитель 1</a></li>
+                    <li><a class="dropdown-item" role="button" data-manufacturer-id="2">Производитель 2</a></li>
+                    <li><a class="dropdown-item" role="button" data-manufacturer-id="3">Производитель 3</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <!--Страна производства-->
+                <div class="dropend">
+                  <button class="dropdown-item dropdown-toggle" type="button" id="CountryDropdownMenuButton"
+                    data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                    Страна производства
+                  </button>
+                  <ul class="dropdown-menu" id="countries-dropdown" aria-labelledby="CountryDropdownMenuButton">
+                    <li><a class="dropdown-item" role="button" data-country-id="1">Страна 1</a></li>
+                    <li><a class="dropdown-item" role="button" data-country-id="2">Страна 2</a></li>
+                    <li><a class="dropdown-item" role="button" data-country-id="3">Страна 3</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
           <a class="btn btn-outline-success mb-2" href="pages/AddPills.html">Добавить лекарство</a>
         </section>
         <section class="table-responsive"> <!--Таблица-->
           <table class="table">
             <thead class="table-dark">
               <tr>
-                <th scope="col" class="col-num asc" role="button" aria-label="Id">№</th>
+                <th scope="col" class="col-num desc" role="button" aria-label="Id">№</th>
                 <th scope="col" class="desc" role="button" aria-label="Title">Название</th>
+                <th scope="col" class="desc" role="button" aria-label="Category">Категория</th>
                 <th scope="col" class="desc" role="button" aria-label="Type">Тип лекарства</th>
                 <th scope="col" class="desc" role="button" aria-label="Year">Год производства</th>
-                <th scope="col" class="desc" role="button" aria-label="Country">Страна производитель</th>
+                <th scope="col" class="desc" role="button" aria-label="Manufacturer">Производитель</th>
                 <th scope="col" class="desc" role="button" aria-label="Price">Стоимость</th>
                 <th scope="col" class="desc" role="button" aria-label="Count">Количество</th>
               </tr>
@@ -49,9 +103,10 @@
               <tr data-id="1">
                 <th scope="row">1</th>
                 <td>Парацетамол</td>
+                <td>Антибиотики</td>
                 <td>Таблетки</td>
                 <td>2009</td>
-                <td>Россия</td>
+                <td>FFF gfgafgd</td>
                 <td>50р</td>
                 <td>
                   <div class="counter d-flex justify-content-between">
@@ -63,11 +118,12 @@
               </tr>
               <tr data-id="2">
                 <th scope="row">2</th>
-                <td>Пенталгин</td>
+                <td>Парацетамол</td>
+                <td>Антибиотики</td>
                 <td>Таблетки</td>
-                <td>2010</td>
-                <td>Россия</td>
-                <td>150р</td>
+                <td>2009</td>
+                <td>FFF gfgafgd</td>
+                <td>50р</td>
                 <td>
                   <div class="counter d-flex justify-content-between">
                     <button class="minus btn btn-outline-danger me-2">-</button>
@@ -78,11 +134,12 @@
               </tr>
               <tr data-id="3">
                 <th scope="row">3</th>
-                <td>Доктор Мом</td>
-                <td>Микстура</td>
-                <td>2011</td>
-                <td>Россия</td>
-                <td>230р</td>
+                <td>Парацетамол</td>
+                <td>Антибиотики</td>
+                <td>Таблетки</td>
+                <td>2009</td>
+                <td>FFF gfgafgd</td>
+                <td>50р</td>
                 <td>
                   <div class="counter d-flex justify-content-between">
                     <button class="minus btn btn-outline-danger me-2">-</button>

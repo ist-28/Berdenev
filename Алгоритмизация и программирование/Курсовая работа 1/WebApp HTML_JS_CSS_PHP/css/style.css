@@ -73,3 +73,45 @@ form input.form-control, form select.form-select{
     border-radius: 0px;
     border: 1px solid black;
 }
+
+
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu {
+  max-height: 280px;
+  overflow-y: auto;
+  min-width: 220px; 
+  z-index: 1056;
+  padding-top: 0;    
+  padding-bottom: 0; 
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
+  border: 1px solid rgba(0,0,0,.175); 
+}
+
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu .dropdown-item {
+  white-space: normal;
+  word-break: break-word;
+  padding: 0.65rem 1rem; 
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0;
+}
+
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu li:last-child .dropdown-item {
+  border-bottom: none;
+}
+
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu .dropdown-item:hover,
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu .dropdown-item:focus {
+  background-color: #f8f9fa; 
+  color: #000; 
+}
+
+
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu > li {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu[aria-labelledby="mainDropdownMenuButton"] .dropend > .dropdown-menu .dropdown-item-text {
+  padding: 0.75rem 1rem;
+  color: #6c757d;
+  font-style: italic;
+}
